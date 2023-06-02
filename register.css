@@ -1,0 +1,102 @@
+
+*{
+    margin: 0px;
+	padding: 0px;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-image: url("images/backlr.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+   
+    
+}
+#header{
+	height: 200px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    
+
+	
+}
+
+#text-head{
+    font-size: 35px;
+    font-weight: bold;
+    color :peru;
+    
+}
+#text-head2{
+    font-size: 35px;
+    font-weight: bold;
+    color :rgb(184, 38, 184);
+}
+
+
+.formlog_header{
+    min-height: 100vh;
+   
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    
+    
+}   
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+}   
+
+label{
+    color: white;
+    display: inline;
+    font-size: smaller;
+}
+label>a{
+    color: white;
+}
+#loginbg{
+    
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 800px;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;  
+    margin: auto;
+    width: 450px;
+    height: 500px;
+    font-size: 25px;
+    border-radius: 30px;
+    
+}
+.form-group{
+    
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 27px;
+    
+    font: 700;
+}
+
+#dangky{
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font: 700;
+}
+.form-group>input{
+    line-height: 40px;
+    font-size: 25px;
+    padding-left: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#dangky{
+    font-size:25px; 
+    line-height: 28px;
+    border-radius: 10px ;
+}
+
