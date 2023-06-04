@@ -115,26 +115,22 @@
 	
 }
 
-.content-item{
-	
+
+.content-item{	
 	width: 80%;
 	height: 250px;
 	margin: auto;
 	margin-bottom: 40px;
 	display: flex;background-color: rgba(246,246,246,1.00);
 	justify-content: space-between;
-	
 }
-
 .item-img{
 	width: 25%;
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	
 }
-
 .item-content{
 	width: 50%;
 	height: 100%;
@@ -153,36 +149,29 @@
 	height: 100%;
 	margin-top: 10px;
 }
-
 .offers_reviews{
 	width: 100%;
 	height: 20%;
 	display: flex;
 }
-
-.offer_reviews_content
-{
+.offer_reviews_content{
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 37px;
 }
-
-.offer_reviews_title
-{
+.offer_reviews_title{
 	font-size: 12px;
 	font-weight: 700;
 	color: #2d2c2c;
 	text-transform: uppercase;
 }
-.offer_reviews_subtitle
-{
+.offer_reviews_subtitle{
 	font-size: 12px;
 	font-weight: 600;
 	color: #929191;
 	margin-top: 1px;
 }
-.offer_reviews_rating
-{
+.offer_reviews_rating{
 	display: inline-block;
 	width: 62px;
 	height: 57px;
@@ -194,7 +183,6 @@
 	vertical-align: middle;
 	text-align: center;
 	border-radius: 45%;
-
 }
 .offers_star{
 	color:  #eda84a;
@@ -206,8 +194,6 @@
 .offers_star h5{
 	color: black;
 }
-
-
 .book_button{
 	width: 67%;
 	height: 20%;
@@ -221,11 +207,17 @@
 	line-height: 50px;
 	font-size: 15px;
 	text-decoration: none;
-
 }
 .book_button:hover{
 	background-color: rgba(54, 19, 84, 0.6);
 }
+
+
+
+
+
+
+
 
 
 #about_statistics{
