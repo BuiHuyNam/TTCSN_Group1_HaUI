@@ -262,7 +262,6 @@
 	display: flex;
 	margin-bottom: 50px;
 }
-
 .offer-img1{
 	width: 25%;
 	height: 100%;
@@ -270,6 +269,129 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.offer-img-name{
+	width: 180px;
+	height: 33px;
+	background: #fa9e1b;
+	overflow: hidden;
+	line-height: 33px;
+	color: white;
+	padding-left: 10px;
+}
+.offer-content{
+	width: 80%;
+	height: 100%;
+	box-sizing: border-box;
+	margin-left: 20px;
+}
+.offer-content1{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 25%;
+}
+.offers_price{
+	display: inline-block;
+	font-size: 36px;
+	font-weight: 700;
+	color: #eda84a;
+	line-height: 25px;
+}
+.offers_price span{
+	font-size: 14px;
+	font-weight: 400;
+	color: #929191;
+	margin-left: 12px;
+}
+.offers_reviews{
+	display: flex;
+}
+.offer_reviews_content{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 7px;
+}
+.offers_star{
+	color:  #eda84a;
+}
+.offer_reviews_title{
+	font-size: 12px;
+	font-weight: 700;
+	color: #2d2c2c;
+	text-transform: uppercase;
+}
+.offer_reviews_subtitle{
+	font-size: 12px;
+	font-weight: 600;
+	color: #929191;
+	margin-top: 1px;
+}
+.offer_reviews_rating
+{
+	display: inline-block;
+	width: 62px;
+	height: 57px;
+	font-size: 28px;
+	font-weight: 700;
+	color: #FFFFFF;
+	line-height: 57px;
+	background: #fa9e1b;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 45%;
+}
+.offer-content2{
+	width: 100%;
+	height: 35%;
+}
+.offers_text{
+	color: #929191;
+}
+.offer-content3{
+	width: 100%;
+	height: 20%;
+}
+.offers_icons{
+	padding-top: 10px;
+}
+.offers_icons_item{
+	display: inline-block;
+	margin-right: 15px;
+}
+.offers_icons_item:last-child{
+	margin-right: 0px;
+}
+.offer-content4{
+	width: 100%;
+	height: 20%;
+}
+.book_button{
+	width: 18%;
+	height: 100%;
+	background-color: #1f0733;
+	border-radius: 50px;
+	text-align: center;
+}
+.book_button a{
+	color: white;
+	line-height: 50px;
+	font-size: 20px;
+	text-decoration: none;
+}
+.book_button:hover{
+	background-color: rgba(54, 19, 84, 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
 .offer-img2{
 	width: 25%;
 	height: 100%;
@@ -305,7 +427,6 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
 .offer-img8{
 	width: 25%;
 	height: 100%;
@@ -313,137 +434,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.offer-img-name{
-/*bottom: 27px;*/
-	width: 180px;
-	height: 33px;
-	background: #fa9e1b;
-	overflow: hidden;
-	line-height: 33px;
-	color: white;
-	padding-left: 10px;
-}
-.offer-content{
-	width: 80%;
-	height: 100%;
-	box-sizing: border-box;
-	margin-left: 20px;
-}
-.offer-content1{
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	height: 25%;
-}
 
-.offers_price
-{
-	display: inline-block;
-	font-size: 36px;
-	font-weight: 700;
-	color: #eda84a;
-	line-height: 25px;
-}
-.offers_price span
-{
-	font-size: 14px;
-	font-weight: 400;
-	color: #929191;
-	margin-left: 12px;
-}
-.offers_reviews{
-	display: flex;
-}
-.offer_reviews_content
-{
-	display: inline-block;
-	vertical-align: middle;
-	margin-right: 7px;
-}
-.offers_star{
-	color:  #eda84a;
-}
-.offer_reviews_title
-{
-	font-size: 12px;
-	font-weight: 700;
-	color: #2d2c2c;
-	text-transform: uppercase;
-}
-.offer_reviews_subtitle
-{
-	font-size: 12px;
-	font-weight: 600;
-	color: #929191;
-	margin-top: 1px;
-}
-.offer_reviews_rating
-{
-	display: inline-block;
-	width: 62px;
-	height: 57px;
-	font-size: 28px;
-	font-weight: 700;
-	color: #FFFFFF;
-	line-height: 57px;
-	background: #fa9e1b;
-	vertical-align: middle;
-	text-align: center;
-	border-radius: 45%;
-/*
-	-webkit-transform: translateY(-4px);
-	-moz-transform: translateY(-4px);
-	-ms-transform: translateY(-4px);
-	-o-transform: translateY(-4px);
-	transform: translateY(-4px);
-*/
-}
-
-.offer-content2{
-	width: 100%;
-	height: 35%;
-}
-.offers_text{
-	color: #929191;
-}
-.offer-content3{
-	width: 100%;
-	height: 20%;
-}
-.offers_icons
-{
-	padding-top: 10px;
-}
-.offers_icons_item
-{
-	display: inline-block;
-	margin-right: 15px;
-}
-.offers_icons_item:last-child
-{
-	margin-right: 0px;
-}
-.offer-content4{
-	width: 100%;
-	height: 20%;
-}
-.book_button{
-	width: 18%;
-	height: 100%;
-	background-color: #1f0733;
-	border-radius: 50px;
-	text-align: center;
-}
-.book_button a{
-	color: white;
-	line-height: 50px;
-	font-size: 20px;
-	text-decoration: none;
-/*	margin-left: 50px;*/
-}
-.book_button:hover{
-	background-color: rgba(54, 19, 84, 0.6);
-}
 
 /*footer*/
 #contact{
