@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./register.css">
-    <script src="./checkreg.js"></script>
 </head>
 <body>
     <div id="header">
@@ -15,7 +14,7 @@
         </div>
     <div class="formlog_header">
 
-        <form action="" id="loginbg" onsubmit="return dangky();">
+        <form action="" id="loginbg" >
             <h1 class="form-heading">--ĐĂNG KÝ--</h1>
             <div class="form-group">
                 
@@ -33,13 +32,47 @@
                 
                 <input type="password" id="mk2"  placeholder="Enter the password">  
             </div>
-            <input  type="submit"  value="Đăng ký" id="dangky" >
-            <p id="kq"></p>
+            <!-- <button  type="button"  value="Đăng ký" id="dangky" onclick="dangky()" > -->
+            <button type="" id="reg">Đăng ký</button>
+                <p id="kq"></p>
             <label for="">Đã có <a href="./login.html">Tài khoản</a>  </label>
            
         </form>
     
     </div>
-    <!-- <img  src="./images/anhtrongregister.png" alt=""> -->
+    <script>
+        let btnLogin = document.getElementById('reg');
+        btnLogin.addEventListener('click', () => {
+            var email = document.getElementById('email').value;
+  var rex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  if (email=='') {
+    window.alert("vui lòng nhập địa chỉ email");
+    return false;
+  }
+  if(!rex.test(email)){
+     
+    window.alert("Email không hợp lệ !");
+  }
+  var tendangnhap =document.getElementById('tendn').value;
+  var rex1= /^[a-zA-Z0-9_]{6,}$/;
+  if(tendangnhap==''){
+    window.alert('Vui lòng nhập tên đăng nhập');
+    return false;
+  }
+  if(!rex1.test(tendangnhap)){
+    window.alert('Tên đăng nhập càn tối thiểu 6 ký tự');
+  }
+  var mk1 = document.getElementById('mk1').value;
+  var mk2 = document.getElementById('mk2').value;
+  if(mk1!=mk2)
+  {
+    window.alert('Hai mật khẩu không khớp nhau');
+  }
+        })
+        
+
+    </script>
+
+    
 </body>
 </html>

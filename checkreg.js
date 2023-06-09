@@ -3,9 +3,9 @@ function dangky() {
   var rex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   if (email == '') {
     window.alert("vui lòng nhập địa chỉ email");
-    return false
+    return false;
   }
-  if(rex.test(email)){
+  if(!rex.test(email)){
      
     window.alert("Email không hợp lệ !");
   }
